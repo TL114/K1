@@ -16,10 +16,13 @@ html, body {
 }
 
 .picture{
-	position:absolute;
-	right:40%;
+	display:flex;
+	float:right;
+	position:center;
+	
 }
 
 .a2{
+	float:none;
 padding:30px;
 }
