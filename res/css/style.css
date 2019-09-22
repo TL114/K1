@@ -8,6 +8,12 @@ html, body {
     background-color: #DDDDDD;
 }
 
+section {
+	align-items: center;
+	width: 80%;
+	margin: 30px auto;
+}
+
 #a1 {
 	font-family: "Times New Roman", Times, serif;
 	font-size: 50px;
@@ -26,7 +32,6 @@ padding:30px;
 
 .navbar {
 	list-style-type: none;
-	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
@@ -53,7 +58,7 @@ padding:30px;
 }
 
 .navbar li a:hover {
-	background-color: #4CAF50;
+	background-color: #94acaf;
 }
 
 
@@ -65,7 +70,7 @@ padding:30px;
 	border-right: none;
 }
 
-.border {
+.tableborder {
 	width: 300px;
 	height: 100px;
 	border: 1px solid black;
